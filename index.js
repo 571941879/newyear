@@ -1501,7 +1501,7 @@ function colorSky(speed) {
 	appNodes.canvasContainer.style.backgroundColor = `rgb(${currentSkyColor.r | 0}, ${currentSkyColor.g | 0}, ${currentSkyColor.b | 0})`;
 	
 	// Set the background image and adjust its size to cover the container
-	const backgroundImageUrl = 'url("img/bgi.png")';
+	const backgroundImageUrl = 'url("bgi.png")';
 	appNodes.canvasContainer.style.backgroundImage = backgroundImageUrl;
 	appNodes.canvasContainer.style.backgroundSize = 'contain';
 	appNodes.canvasContainer.style.backgroundRepeat = 'no-repeat';
